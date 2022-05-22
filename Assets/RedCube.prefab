@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1725148825597419181}
   - component: {fileID: 8751381684557239604}
   - component: {fileID: -3237130745319755379}
+  - component: {fileID: 8335313795064164542}
   m_Layer: 10
   m_Name: RedCube
   m_TagString: Untagged
@@ -97,6 +98,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f207d55c62f78a5429247687d5904985, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!64 &8335313795064164542
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2883753773093102198}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &7577810992173989516
 GameObject:
   m_ObjectHideFlags: 0

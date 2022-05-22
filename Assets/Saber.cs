@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Saber : MonoBehaviour
 {
     public LayerMask layer;
@@ -15,6 +16,7 @@ public class Saber : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.DrawRay(transform.position, transform.forward * 1f, Color.red); 
         RaycastHit hit;
         if(Physics.Raycast(transform.position, transform.forward, out hit, 1, layer))
         {
